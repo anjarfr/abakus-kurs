@@ -4,7 +4,7 @@ const RecipePage = (props) => {
   const { recipe } = props;
   return (
     <div>
-      <h1>{recipe.name}</h1>
+      <h3>{recipe.name}</h3>
       <p>{recipe.duration} min</p>
       <p>{recipe.instructions}</p>
     </div>
